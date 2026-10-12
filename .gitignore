@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+env/
+venv/
+.venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+# HCP data and derived connectomes (not redistributable; see README "Data")
+/DATA/
+/FC_DATA/
+/MOCK_DATA/
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.tgz
+*.tar.gz
+*.zip
+
+# Run outputs
+/results/
+/Results/
+/logs/
+/manuscript_results/
+*.log
+experiments/output/
+
+# Trained weights (written by src/train_model.py)
+*.pth
+*.pt
+
+# External code cloned at run time by Baselines/metric_learning/metric_bolt_baseline.py
+/MetricBolT/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*

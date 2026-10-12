@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "ConvAE+SDL: Deep Dictionary Learning for Brain Fingerprinting from fMRI Connectivity"
+type: software
+license: MIT
+repository-code: "https://github.com/ridash2005/Brain-Fingerprinting"
+authors:
+  - family-names: Das
+    given-names: Rickarya
+    affiliation: "Indian Institute of Technology Kharagpur"
+  - family-names: Chand
+    given-names: Yashaswini
+    affiliation: "Indian Institute of Technology Kharagpur"
+  - family-names: Ghosh
+    given-names: Sanjay
+    affiliation: "Indian Institute of Technology Kharagpur"
+    email: sanjay.ghosh@ee.iitkgp.ac.in
+keywords:
+  - functional connectivity
+  - brain fingerprinting
+  - subject identification
+  - sparse dictionary learning
+  - autoencoder
+  - fMRI
+preferred-citation:
+  type: conference-paper
+  title: "A Deep Dictionary Learning Method for Brain Fingerprinting from fMRI Connectivity"
+  authors:
+    - family-names: Das
+      given-names: Rickarya
+    - family-names: Chand
+      given-names: Yashaswini
+    - family-names: Ghosh
+      given-names: Sanjay
+  collection-title: "Brain Informatics (BI 2026)"
+  conference:
+    name: "International Conference on Brain Informatics (BI 2026)"
+    city: Brisbane
+    country: AU
+  publisher:
+    name: Springer
+  year: 2026
